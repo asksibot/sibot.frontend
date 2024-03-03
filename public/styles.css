@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header img {
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+  .feedback-instructions {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .feedback-form {
+    display: none; /* Initially hide the feedback form */
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .chat-area {
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px; /* Set a fixed height for the chat area */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .user-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .bot-message {
+    background-color: #e1f7d5;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .input-container button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

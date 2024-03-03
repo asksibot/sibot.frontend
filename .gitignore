@@ -1,23 +1,44 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependency directories
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Environment variables file
+.env
+.env.*
 
-# testing
-/coverage
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# production
-/build
+# Logs and build files
+*.log
+*.tsbuildinfo
+build/
+dist/
+out/
+logs/
 
-# misc
+# OS-specific files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Thumbs.db
 
+# Testing files
+coverage/
+
+# IDE files
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Miscellaneous
 npm-debug.log*
-yarn-debug.log*
 yarn-error.log*
+.pnp.*
+
+# Custom exclusions
+*.xlsx        # Ignore Excel files
+userdata/     # Ignore user data directory
